@@ -1,0 +1,85 @@
+
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.c_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0;
+}
+
+#rock{
+    background-image: url("./photos/rock.jpg");
+    width: 180px;
+    height: 180px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#paper{
+    background-image: url("./photos/game_paper.png");
+    width: 180px;
+    height: 150px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#scissors{
+    background-image: url("./photos/scissors.png");
+    width: 180px;
+    height: 230px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+#c_rock{
+    background-image: url("./photos/c.png");
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+
+}
+
+
+#c_paper{
+    background-image: url("./photos/c_p.png");
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+
+}
+
+#c_scissors{
+    background-image: url("./photos/c_sc.png");
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+
+}
+
+p{
+    font-size: x-large;
+}
